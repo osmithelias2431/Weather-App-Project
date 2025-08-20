@@ -1,10 +1,7 @@
 function WeatherDisplay({display}) {
-    
+
+
     return <div className="display-page">
-        <div className="display-search">
-            <input type="text" placeholder="Search for a city..." />
-            <button className="search-button">Search</button>
-        </div>
         <div>
             <h2 className="weather-location">{display.location}</h2>
             <div>
