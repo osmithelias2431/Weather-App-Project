@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url('/src/assets/Blue_sky.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
