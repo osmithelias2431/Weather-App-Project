@@ -12,7 +12,7 @@ function WeatherDisplay({display}) {
                 </div>
             </div>
         </div>
-        <div>
+        <div className="extra-details">
             <p>Chance of Rain: {display.precipitation}</p>
             <p>Feels Like: {display.altTemperature}</p>
             <p>Wind: {display.wind}</p>

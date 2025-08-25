@@ -16,6 +16,16 @@
   background-size: cover;
   background-position: center;
 }
+.background-card {
+  background-color: whitesmoke;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.display-page {
+  color: black;
+}
 
 .logo {
   height: 6em;
