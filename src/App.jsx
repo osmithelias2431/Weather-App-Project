@@ -15,7 +15,7 @@ function App() {
       <h2 className="title">Weather App</h2>
       <form onSubmit={handleSearch} className="form">
         <input type="text" placeholder="Search for a city..." className="search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
-        <button type="submit" className="search-button">Search</button>
+        <button type="submit" className="search-button">Go</button>
       </form>
       <WeatherDisplay display={{}} />
     </div>
