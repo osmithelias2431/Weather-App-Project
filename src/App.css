@@ -5,6 +5,7 @@
   text-align: center;
 }
 
+
 .background-image {
   width: 100vw;
   height: 100vh;
@@ -22,7 +23,7 @@
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 75vw;
+  width: 60vw;
   height: auto;
   min-height: 40vh;
 }

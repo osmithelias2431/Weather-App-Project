@@ -1,11 +1,16 @@
 import './App.css'
 import { useState } from 'react'
 import WeatherDisplay from './components/WeatherDisplay'
+import { fetchWeather } from './services/api'
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const handleSearch = () => {
+  const handleSearch = async (event) => {
+    event.preventDefault();
+    const weatherData = await fetchWeather(searchQuery);
+    console.log(weatherData);
+  
       alert(`${searchQuery}!`)
   }
   return (
